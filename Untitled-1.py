@@ -71,3 +71,7 @@ Y_predict[Y_predict>0]=1
 
 # matrix multiplication
 X.dot(Y)
+
+# get total count of value 0 in Y
+y.value_counts()[0]
+or y['column'].value_counts()[0]
